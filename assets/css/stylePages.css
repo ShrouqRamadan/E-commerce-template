@@ -1,0 +1,296 @@
+.nav-pills .nav-link.active{
+    background-color: var(--main-color);
+}
+.nav-pills {
+    border: 1px solid rgba(128, 128, 128, 0.274);
+    width: 25%;
+}
+.nav-pills .nav-link{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.274);
+}
+.nav-link{
+    color: black;
+    padding: 17px ;
+}
+.nav-link:hover{
+    color: black;
+}
+.acount-item{
+    border: 1px solid rgba(128, 128, 128, 0.274);
+}
+.header{
+    background-color: #EFEFEF;
+    padding: 15px;
+}
+.acount-caption{
+    padding: 10px;
+    margin: 10px 0px;
+}
+.last-p{
+    font-size: 15px;
+}
+.tab-content{
+    width: 75%;
+}
+
+ table{
+    font-size: 12px;
+    border: 1px solid rgba(128, 128, 128, 0.274);
+}
+ table a{
+   color: var(--main-color);
+}
+ table a:hover{
+   color: var(--main-color);
+}
+.acount-caption input{
+    width: 100%;
+    outline: none;
+    border: 1px solid rgba(128, 128, 128, 0.274);
+    padding: 10px;
+}
+.acount-caption input::placeholder{
+   font-size: 14px;
+}
+.acount-caption button{
+   background-color: var(--main-color);
+   border: solid 1px var(--main-color);
+   color: white;
+   margin-top: 10px;
+   padding: 5px 20px;
+}
+.acount-caption button:hover{
+ background-color: transparent;
+ color: var(--main-color);
+}
+.acount-caption a{
+    font-weight: 600;
+ color: var(--main-color);
+}
+.acount-caption a:hover{
+ color: var(--main-color);
+}
+.account{
+    overflow-x: auto!important;
+}
+/* cart page */
+table{
+    overflow-x: auto!important;
+}
+.table tr td img{
+width:70px;
+}
+
+.table tr td .table-name{
+color: var(--main-color);
+font-weight: 700;
+}
+.table tr td i:hover{
+color: red;
+cursor: pointer;
+}
+.table tr td input{
+width: 50px;
+text-align: center;
+}
+.btn-cart button{
+    padding: 10px 15px;
+    color: white;
+    background-color: var(--main-color);
+    font-size: 18px;
+    border: none;
+   border: 1px solid var(--main-color);
+    transition: all 1s;
+    font-size: 12px;
+}
+.btn-cart button:hover{
+   background-color: white;
+   color: var(--main-color);
+}
+.finger {
+    position: relative;
+}
+.finger i{
+    color: rgba(128, 128, 128, 0.705);
+}
+.finger::after{
+content:"";
+position: absolute;
+top: 50%;
+right: 10%;
+width: 37%;
+background-color: rgba(128, 128, 128, 0.402);
+height: 2px;
+}
+.finger::before{
+content:"";
+position: absolute;
+top: 50%;
+left: 10%;
+width: 37%;
+background-color: rgba(128, 128, 128, 0.402);
+height: 2px;
+}
+.calc input{
+    padding: 7px 10px;
+    border: 2px solid rgba(128, 128, 128, 0.13);
+    outline: none;
+    border-radius: 5px;
+}
+.calc input::placeholder{
+   font-size: 12px;
+}
+ .input-1{
+   width: 100%;
+}
+.input-2{
+   width: 50%;
+   margin-right: 2px;
+}
+.input-3{
+   width: 50%;
+   margin-left: 2px;
+
+}
+.input-apply{
+    width:  40%;
+}
+.cart-item{
+    border: 2px solid rgba(128, 128, 128, 0.13);
+padding: 10px;
+margin: 30px;
+}
+.cart-item table{
+    border: 2px solid rgba(128, 128, 128, 0.13);
+    font-size: 16px;
+
+}
+.price-total{
+    color: var(--main-color);
+}
+/* details page */
+.first-p{
+    font-size: 14px;
+}
+.line{
+    width: 100%;
+    height: 1px;
+background-color: rgba(128, 128, 128, 0.249);
+}
+.sec-p{
+    font-size: 25px;
+    font-weight: 600;
+}
+.line-through{
+    text-decoration: line-through;
+}
+.last-text{
+    font-size: 12px;
+}
+.colors div{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 0px 3px;
+}
+.color-1{
+    background-color: rgba(255, 0, 0, 0.774);
+}
+.color-2{
+    background-color: rgba(255, 255, 0, 0.459);
+}
+.color-3{
+    background-color:#ff88a844;
+}
+.color-4{
+    background-color:rgba(127, 255, 212, 0.4);
+}
+.color-5{
+    background-color:rgba(137, 43, 226, 0.251);
+}
+.size div{
+    border: 1px solid rgba(128, 128, 128, 0.527);
+padding: 2px 5px;
+margin: 0px 3px;
+}
+.size-active{
+    color: white;
+    background-color: var(--main-color);
+}
+.quantaty input{
+    width: 50px;
+    text-align: center;
+}
+.quantaty button{
+    padding: 3px 5px;
+        color: white;
+        background-color: var(--main-color);
+        font-size: 14px;
+        border: none;
+       border: 1px solid var(--main-color);
+       margin: 0px 10px;
+}
+.quantaty div{
+    width: 30px;
+height: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.quantaty div:hover{
+   color: white;
+   background-color: var(--main-color);
+   cursor: pointer;
+}
+input[type=number]::-webkit-inner-spin-button {
+    opacity: 1;
+  }
+
+  .review-item img{
+width: 70px;
+height: 70px;
+border-radius: 50%;
+  }
+
+  .rev-input{
+    padding: 7px 10px;
+    border: 2px solid rgba(128, 128, 128, 0.13);
+    outline: none;
+    border-radius: 5px;
+  }
+  .btns{
+    padding: 5px;
+    color: white;
+    background-color: var(--main-color);
+    border: none;
+   border: 1px solid var(--main-color);
+   display: block;
+  }
+  .pointer{
+    cursor: pointer;
+  }
+  table button{
+    background-color: var(--main-color);
+    border: solid 1px var(--main-color);
+    color: white;
+    margin-top: 10px;
+    padding: 5px 20px;
+  } 
+  .add-inf{
+    padding: 7px 10px;
+    border: 2px solid rgba(128, 128, 128, 0.13);
+    outline: none;
+    border-radius: 5px;
+  }
+  .w-img{
+    width: 250px;
+
+  }
+  .table-compare tr td{
+    padding: 20px 5px;
+    border: 1px solid rgba(128, 128, 128, 0.089);
+  }
+  .table-compare th{
+    padding: 20px 5px;
+    border: 1px solid rgba(128, 128, 128, 0.089);
+  }

@@ -1,0 +1,140 @@
+:root{
+    --main-color:hsl(176,88%,27%);
+    --main-color-alt:hsl(129,44%,94%);
+}
+@media  screen and (max-width: 992px) {
+   /* Style header */
+ 
+    .header-top{
+       display: none;
+    }
+    .nav-right-side  .menu i{
+      display: block;
+  }
+.navbar{
+  position: absolute;
+  top: 100%;
+  left: 10%;
+  width: 80%;
+  margin:2px 0px!important;
+  display: flex;
+  justify-content: center;
+  z-index: 999999999;
+  
+ 
+
+}
+.navbar ul{
+  flex-direction: column;
+  margin:2px 0px!important;
+  width: 80%;
+  padding-left: 0px;
+}
+.navbar ul li{
+  background-color: var(--main-color);
+  width: 100%;
+  text-align: center;
+  margin: 7px 0px;
+}
+nav ul li .nav-links{
+  color: white;
+ 
+}
+nav ul li .nav-links:hover{
+  color:var(--main-color-alt);
+}
+nav ul li .nav-links.active{
+  color: white; 
+}
+.navbar{
+  clip-path: polygon(0 0,100% 0 , 100% 0, 0 0);
+}
+header .navbar.actives{
+  clip-path: polygon(0 0,100% 0 , 100% 100%, 0% 100%);
+}
+/* home */
+.home-left-side{
+  text-align: center;
+}
+/* sign-up */
+.sign-up{
+  display: none;
+}
+/* Account */
+.nav-pills {
+  width: 50px;
+}
+.tab-content{
+  width: 400px;
+}
+.acount-caption input{
+  width: 300px;
+ 
+}
+.nav-link span{
+  display: none;
+}
+.nav-link {
+text-align: end;
+}
+}
+@media  screen and (max-width: 768px) {
+  /* header */
+  nav{
+    margin-top: 5px;
+  }
+  nav .logo img{
+    margin: 10px 0px;
+}
+nav .container{
+  flex-direction: column!important;
+}
+ /* featuries */
+ .nav-tabs .nav-link{
+  margin: 0px 5px;
+ 
+}
+.name-table{
+  display: none;
+}
+}
+
+
+
+
+@media  screen and (max-width: 600px) {
+/* header */
+.search input{
+  padding: 3px;
+}
+/* home */
+.home-left-side h2{
+  color: black;
+  font-size: 30px;
+  font-weight: 900;
+  }
+  .home-left-side .big-text{
+  color: var(--main-color);
+  font-size: 35px;
+  font-weight: 700;
+  }
+  /* featuries */
+ .nav-tabs .nav-link{
+  margin: 2px;
+  font-size: 14px;
+}
+
+/* deals */
+.deals-item{
+  padding: 10px!important;
+}
+  }
+
+
+  @media  screen and (max-width: 337px) {
+  /* featuries */
+ .nav{
+  display: flex;
+  flex-direction: column;
+ }
+  }

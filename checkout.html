@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Template</title>
+        <!-- owl-carousel -->
+        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- fontAwsome -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <!-- style files -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/stylePages.css">
+    <!-- mediaQuery -->
+    <link rel="stylesheet" href="assets/css/mediaQuery.css">
+</head>
+<body>
+    <!-- header Section starts -->
+    <header>
+  
+    <div class="header-top">
+        <div class="container">
+            <div class="row g-2 justify-content-between align-items-center p-2 flex-wrap text-lg-center">
+                <div class="col-md-4 left-side d-flex">
+                    <p class="mb-0">(+01)-2345-6789</p>
+                    <p class="ms-3 mb-0">Our Location</p>
+                </div>
+                <div class="col-md-4  center">
+                    <p class="mb-0">Super Value Deals-save more with coupons</p>
+                </div>
+                <div class="col-md-4  right-side  text-end">
+                    <a href="#">Login</a>
+                    /
+                    <a href="#">Sign Up</a>
+                </div>
+            </div>
+        </div>
+
+
+    
+      
+    </div>
+
+    <!-- navbar -->
+    <nav>
+        <div class="container">
+            <div class="logo ">
+                <img src="assets/image/logo.svg" alt="logo">
+            </div>
+            <div class="navbar">
+                <ul>
+                    <li><a href="/" class="nav-links active">Home</a></li>
+                    <li><a href="shop.html" class="nav-links">Shop</a></li>
+                    <li><a href="account.html" class="nav-links">My Account</a></li>
+                    <li><a href="compare.html" class="nav-links">Compare</a></li>
+                    <li><a href="login.html" class="nav-links">Login</a></li>
+                </ul>
+            </div>
+            <div class="nav-right-side d-flex align-items-center ">
+                <div class="search">
+             <input type="text" placeholder="Search for items...">
+             <i class="fa-solid fa-magnifying-glass"></i>    
+            </div>
+    <div class="love-items">
+       <a href="wishlist.html" class="text-dark"><i class="fa-regular fa-heart"></i></a>
+        <span>3</span>
+    </div>
+    <div class="cart">
+        <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+
+        <span>3</span>
+    </div>
+    <div class="menu">
+    <i class="fa-solid fa-bars"></i>
+    </div>
+            
+            </div>
+        </div>
+        
+    </nav>
+    </header>
+    <!-- loction starts-->
+    <div class="location">
+        <div class="container p-3">
+            <p class="mb-0 text-muted"><span class="me-2">Home</span>   ><span class="mx-2">Shop</span> > <span class="ms-2">Checkout</span></p>
+        </div>
+    </div>
+    <!-- loction ends -->
+<!-- calc shipping -->
+<section class="calc mt-5">
+    <div class="container">
+<div class="row">
+    <div class="col-lg-6">
+        <h6 class="fw-bold">Billing Details</h6>
+        <input type="text" placeholder="Name" class="input-1">
+        <input type="text" placeholder="Address" class="input-1 my-3">
+        <input type="text" placeholder="City" class="input-1">
+        <input type="text" placeholder="Country" class="input-1 my-3">
+        <input type="text" placeholder="Postcode" class="input-1 ">
+        <input type="number" placeholder="Phone" class="input-1 my-3">
+        <input type="email" placeholder="Email" class="input-1 my-3">
+        
+        <h6 class="fw-bold">Additional information</h6>
+        <textarea placeholder="Order notes" class="input-1 add-inf" cols="30" rows="10"></textarea>
+
+        
+
+       
+    </div>
+
+    <div class="col-lg-6">
+        <h6 class="fw-bold">Cart Total</h6>
+
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Image</th>
+                <th scope="col">Product</th>
+                <th scope="col">Total</th>
+                
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><img src="assets/image/category-2.jpg" alt=""></td>
+                <td>
+                <p class="table-name mb-1">Amazon Essentials Wonmen's tank</p>
+                <p class="mb-0">2</p>
+                </td>
+                <td class="fw-bolder">$110</td>
+                
+              </tr>
+    
+              <tr>
+                <td><img src="assets/image/category-5.jpg" alt=""></td>
+                <td>
+                <p class="table-name mb-1">Amazon Essentials Wonmen's tank</p>
+                <p class="mb-0">3</p>
+                </td>
+                <td class="fw-bolder">$110</td>
+              
+              </tr>
+    
+              <tr>
+                <td><img src="assets/image/category-1.jpg" alt=""></td>
+                <td>
+                <p class="table-name mb-1">Amazon Essentials Wonmen's tank</p>
+                <p class="mb-0">4</p>
+                </td>
+                <td class="fw-bolder">$110</td>
+               
+              </tr>
+             
+            </tbody>
+          </table>
+        <div class="cart-item">
+        <table class="table">
+            <tr>
+                <td>Sub Total</td>
+                <td class="price-total">$240.00</td>
+            </tr>
+            <tr>
+                <td>Shipping</td>
+                <td class="price-total">$10.00</td>
+            </tr>
+            <tr>
+                <td>Total</td>
+                <td class="price-total main-color fw-bolder">$255.00</td>
+            </tr>
+        </table>
+        <div class="btn-cart ms-2">
+            <button class="rounded-1 "><i class="fa-solid fa-money-bill"></i> Place Order</button>
+            </div>
+        
+
+        </div>
+    </div>
+</div>
+    </div>
+</section>
+<!-- sign up start-->
+<!-- sign up start-->
+<div class="sign-up my-5 p-4 ">
+    <div class="container">
+        <div class="row align-items-center ">
+            <div class="col-lg-4">
+                <div class="sign-item d-flex align-items-center">
+                    <i class="fa-solid fa-envelope-open-text"></i>
+                    <p class="mb-0 ms-3">Sign up to Newsletter</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="sign-item d-flex align-items-center">
+                    <p class="mb-0 ms-3">...and receive $25 coupon for first shoppping</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 ">
+                <div class="sign-item d-flex align-items-center ">
+                   <input type="text" placeholder="Enter Your email ">
+                   <button >Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- sign up End-->
+<footer class="bg-light mt-4">
+    <div class="container">
+        <div class="row g-4">
+            <div class="col-lg-3 col-md-6">
+                <div class="footer-item">
+                    <img src="assets/image/logo.svg" alt="" class="logo">
+                    <p class="small-text mt-2 mb-0">Contact</p>
+                    <p class="mt-2 address"><span class="fw-bolder">Address: </span> <span class="text-muted">562 Wellington Roat, Street 32, San Francisco</span></p>
+
+                    <p class="mt-2 address"><span class="fw-bolder">Phone: </span> <span class="text-muted">+1 222 365/(+91)0123456789</span></p>
+                    <p class="mt-2 address"><span class="fw-bolder">Hours: </span> <span class="text-muted">10:00-19:00,Mon-Sat</span></p>
+
+                    <h6 class="fw-bolder">Follow Me</h6>
+
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 ">
+                <h6 class="fw-bolder">Address</h6>
+                <p class="text-muted address"><a href="#">About Us</a></p>
+                <p class="text-muted address"><a href="#">Delivery information</a></p>
+                <p class="text-muted address"><a href="#">Privacy Policy</a></p>
+                <p class="text-muted address"><a href="#">Terms & Conditions</a></p>
+                <p class="text-muted address"><a href="#">Contant Us</a></p>
+                <p class="text-muted address"><a href="#">Support Cente</a>r</p>
+            </div>
+            <div class="col-lg-3 col-md-6 ">
+                <h6 class="fw-bolder">My Account</h6>
+                <p class="text-muted address"><a href="#">Sign In</a></p>
+                <p class="text-muted address"><a href="#">View Cart</a></p>
+                <p class="text-muted address"><a href="#">My Wishlist</a></p>
+                <p class="text-muted address"><a href="#">Track My Order</a></p>
+                <p class="text-muted address"><a href="#">Help</a></p>
+                <p class="text-muted address"><a href="#">Order</a></p>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <h6 class="fw-bolder">Secured Payment Gateways</h6>
+               <img src="assets/image/payment-method.png" alt="">
+
+            </div>
+          
+        </div>
+    </div>
+
+    <div class=" shadow-lg text-center p-3">
+@2023 All rigths reserves 
+    </div>
+</footer>
+<!-- bootstrap -->
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<!-- jq cdn -->
+<script src="https://code.jquery.com/jquery-3.6.1.min.js"
+integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+<!-- owl carousel -->
+<script src="assets/js/owl.carousel.min.js"></script>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
